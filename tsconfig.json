@@ -1,0 +1,35 @@
+{
+  "include": ["src/**/*"],
+
+  "compilerOptions": {
+    // Typechecking - as strict as possible
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "skipLibCheck": true,
+    "strict": true,
+
+    // Modules
+    "allowSyntheticDefaultImports": false,
+    "module": "preserve",
+    "verbatimModuleSyntax": true,
+
+    // Type declarations
+    "target": "es2024",
+    "types": [],
+
+    // Syntax
+    "erasableSyntaxOnly": true,
+    "jsx": "react-jsx",
+
+    // Emitting
+    "noEmit": true
+  }
+}

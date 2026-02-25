@@ -1,0 +1,13 @@
+.Canvas {
+  background-color: #f3f4f6;
+  height: 100dvh;
+  position: relative;
+  width: 100%;
+}
+
+.Canvas__content {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}

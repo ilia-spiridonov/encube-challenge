@@ -1,0 +1,6 @@
+.CanvasItem {
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform-origin: top left;
+}
