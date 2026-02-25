@@ -15,3 +15,5 @@ open http://localhost:5173/
 ```
 
 See `DECISIONS.md` and `CLAUDE.md` for info on the project.
+
+For a quick demo video, see [this file](demo.mov).
